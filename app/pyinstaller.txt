@@ -1,0 +1,5 @@
+pyinstaller --onefile --windowed --icon=kaynaklar/icons/main_icon.ico --distpath=C:/Users/pc/Desktop/proje/sözlük main.py
+
+
+
+pyinstaller --onefile --windowed --icon=resources/images/main_icon.ico --distpath=C:/Users/pc/Desktop/proje --add-data "data/ozet.txt;data" --add-data "data/sozluk.json;data" --add-data "resources/images/main_icon.ico;resources/images" --add-data "resources/images/main_icon.ico;resources/images" --add-data "resources/images/main_icon.png;resources/images" --add-data "resources/images/sound.jpg;resources/images" --add-data "resources/images/sound.png;resources/images" --add-data "resources/images/sound_2.jpg;resources/images" --add-data "resources/images/sound_2.png;resources/images" --add-data "resources/images/voice_icon.png;resources/images" --add-data "resources/images/word_icon.png;resources/images" --add-data "resources/phonetics/phonetics.json;resources/images" --add-data "src/phonetic_manager.py;src" --add-data "src/pronunciation.py;src" --add-data "src/voice_manager.py;src" --add-data "src/word_manager.py;src" src/main.py
