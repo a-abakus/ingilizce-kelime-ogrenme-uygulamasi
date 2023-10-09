@@ -1,1 +1,1 @@
-# KelimeOgrenmeUygulamasi
+# Kelime Ögrenme Uygulaması
